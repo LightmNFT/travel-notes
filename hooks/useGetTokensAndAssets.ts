@@ -62,11 +62,11 @@ export default function useGetTokensAndAssets(
         for (
           let nextBlock = record?.tokens?.lastBlock || START_BLOCK;
           nextBlock < latestBlock;
-          nextBlock += 500
+          nextBlock += 3000
         ) {
           const [_mintEvents, _burnEvents] = await Promise.all([
-            contract.queryFilter(mintEventFilter, nextBlock, nextBlock + 499),
-            contract.queryFilter(burnEventFilter, nextBlock, nextBlock + 499),
+            contract.queryFilter(mintEventFilter, nextBlock, nextBlock + 2999),
+            contract.queryFilter(burnEventFilter, nextBlock, nextBlock + 2999),
           ])
 
           mintEvents.push(..._mintEvents)
