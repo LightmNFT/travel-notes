@@ -9,6 +9,11 @@ const nextConfig = {
       },
     ],
   },
+  env: {
+    TRAVEL_NOTES_ADDRESS: process.env.TRAVEL_NOTES_ADDRESS,
+    LIGHTM_EQUIPPABLE_RENDER_UTILS_ADDRESS:
+      process.env.LIGHTM_EQUIPPABLE_RENDER_UTILS_ADDRESS,
+  },
 }
 
 export default nextConfig

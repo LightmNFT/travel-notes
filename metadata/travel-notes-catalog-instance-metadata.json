@@ -1,0 +1,7 @@
+{
+  "name": "Travel Notes Series Catalog Instance",
+  "description": "This is the catalog instance of Travel Notes series, so the specific rendering will be determined by the FIXED_PART and SLOT definitions for this instance.",
+  "mediaUri": "ipfs://bafybeihrkpllol7q4tzl3a2bu5nhvzzdgm6irf7lfdqfknz6pqa3vqpvbm",
+  "externalUri": "https://travel-notes.lightm.xyz",
+  "type": "catalog"
+}

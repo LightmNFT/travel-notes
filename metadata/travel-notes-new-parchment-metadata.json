@@ -1,0 +1,9 @@
+{
+  "name": "羊皮卷",
+  "description": "一张可以容纳5行文字的羊皮卷",
+  "mediaUri": "ipfs://bafybeic3ei2zn6ryndp22g3labwnnzzewtwr7eq5kgvapn3ibwuzv6rmfu",
+  "thumbnailUri": "ipfs://bafybeic3ei2zn6ryndp22g3labwnnzzewtwr7eq5kgvapn3ibwuzv6rmfu",
+  "externalUri": "https://travel-notes.lightm.xyz",
+  "license": "The CreativeML OpenRAIL M license",
+  "licenseUri": "https://github.com/CompVis/stable-diffusion/blob/main/LICENSE"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "入世(Hello World)",
+  "description": "首次申领旅行笔记的用户获得的POAP纪念章",
+  "mediaUri": "ipfs://bafybeiaxna33cinwo4lrseulpmjmsgykf4t4qk7wo7qivtghemy6hxkgeu",
+  "thumbnailUri": "ipfs://bafybeiaxna33cinwo4lrseulpmjmsgykf4t4qk7wo7qivtghemy6hxkgeu",
+  "externalUri": "https://travel-notes.lightm.xyz",
+  "license": "The CreativeML OpenRAIL M license",
+  "licenseUri": "https://github.com/CompVis/stable-diffusion/blob/main/LICENSE"
+}

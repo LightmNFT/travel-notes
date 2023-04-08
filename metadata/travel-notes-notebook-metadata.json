@@ -1,0 +1,9 @@
+{
+  "name": "旅行笔记",
+  "description": "一本可以容纳10行文字的旅行笔记",
+  "mediaUri": "ipfs://bafybeihrkpllol7q4tzl3a2bu5nhvzzdgm6irf7lfdqfknz6pqa3vqpvbm",
+  "thumbnailUri": "ipfs://bafybeihrkpllol7q4tzl3a2bu5nhvzzdgm6irf7lfdqfknz6pqa3vqpvbm",
+  "externalUri": "https://travel-notes.lightm.xyz",
+  "license": "The CreativeML OpenRAIL M license",
+  "licenseUri": "https://github.com/CompVis/stable-diffusion/blob/main/LICENSE"
+}

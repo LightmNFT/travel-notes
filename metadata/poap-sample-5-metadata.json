@@ -1,0 +1,15 @@
+{
+  "name": "广场大鹅(Square Goose)",
+  "description": "买入某一token后陷入亏损状态，在1个月中99%的时间内没有回到过水上",
+  "mediaUri": "ipfs://bafybeihxj2q4tnxdrxxtrz45sdaogwgjdqewl3zv3qqg5wlodmc55libqi",
+  "thumbnailUri": "ipfs://bafybeihxj2q4tnxdrxxtrz45sdaogwgjdqewl3zv3qqg5wlodmc55libqi",
+  "externalUri": "https://travel-notes.lightm.xyz",
+  "license": "The CreativeML OpenRAIL M license",
+  "licenseUri": "https://github.com/CompVis/stable-diffusion/blob/main/LICENSE",
+  "properties": {
+    "tier": {
+      "type": "number",
+      "value": 3
+    }
+  }
+}

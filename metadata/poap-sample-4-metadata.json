@@ -1,0 +1,15 @@
+{
+  "name": "笼中鸟(Caged Bird)",
+  "description": "某一token浮亏超过80%",
+  "mediaUri": "ipfs://bafybeia2ctz5yo5fphwcfqoyii67grzi6h6rwazt2sqcyeydldm2757kmi",
+  "thumbnailUri": "ipfs://bafybeia2ctz5yo5fphwcfqoyii67grzi6h6rwazt2sqcyeydldm2757kmi",
+  "externalUri": "https://travel-notes.lightm.xyz",
+  "license": "The CreativeML OpenRAIL M license",
+  "licenseUri": "https://github.com/CompVis/stable-diffusion/blob/main/LICENSE",
+  "properties": {
+    "tier": {
+      "type": "number",
+      "value": 2
+    }
+  }
+}

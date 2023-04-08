@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .text-shadow-lg {
+    @apply text-shadow;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
+  }
+  .text-shadow {
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.9);
+    transition: text-shadow ease 0.5s;
+  }
+  .text-shadow-none {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0.9);
+  }
+
+  .notes-shadow {
+    box-shadow: inset 0em 0em 1em 1em rgba(0, 0, 0, 0.1),
+      0em 0em 3em 1em rgba(0, 0, 0, 0.15);
+  }
+
+  .notes-shadow-lg {
+    box-shadow: inset 0em 0em 80px 2em rgba(0, 0, 0, 0.3),
+      0em 0em 48px 1em rgba(0, 0, 0, 0.2);
+  }
+
+  .notes-shadow-xl {
+    box-shadow: inset 0em 0em 128px 3.5em rgba(0, 0, 0, 0.5),
+      0em 0em 64px 1.5em rgba(0, 0, 0, 0.3);
+  }
+}

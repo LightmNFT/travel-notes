@@ -1,0 +1,9 @@
+{
+  "name": "破旧羊皮卷",
+  "description": "一张可以容纳3行文字的破羊皮卷",
+  "mediaUri": "ipfs://bafybeici5votn46j7zjojvzm6l73bwilmhe4kspi525aemwfrwu3wjfqvy",
+  "thumbnailUri": "ipfs://bafybeici5votn46j7zjojvzm6l73bwilmhe4kspi525aemwfrwu3wjfqvy",
+  "externalUri": "https://travel-notes.lightm.xyz",
+  "license": "The CreativeML OpenRAIL M license",
+  "licenseUri": "https://github.com/CompVis/stable-diffusion/blob/main/LICENSE"
+}

@@ -8,7 +8,7 @@ export function Layout({ children }: LayoutProps) {
   return (
     <>
       <SiteHeader />
-      <main>{children}</main>
+      <main className="h-screen pb-20">{children}</main>
     </>
   )
 }

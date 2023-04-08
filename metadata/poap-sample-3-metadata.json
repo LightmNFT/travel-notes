@@ -1,0 +1,15 @@
+{
+  "name": "忠诚(Loyalty)",
+  "description": "持续3个月未在任何被记录的跨链桥上转出过资产",
+  "mediaUri": "ipfs://bafybeibwsryzogtb5yym3zbpyybxmr6bvekku3ymixer2woufbaixmeg3e",
+  "thumbnailUri": "ipfs://bafybeibwsryzogtb5yym3zbpyybxmr6bvekku3ymixer2woufbaixmeg3e",
+  "externalUri": "https://travel-notes.lightm.xyz",
+  "license": "The CreativeML OpenRAIL M license",
+  "licenseUri": "https://github.com/CompVis/stable-diffusion/blob/main/LICENSE",
+  "properties": {
+    "tier": {
+      "type": "number",
+      "value": 1
+    }
+  }
+}

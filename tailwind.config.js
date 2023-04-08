@@ -13,8 +13,11 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        scroll: "#c7b796",
+      },
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        sans: ["var(--font-travel-notes)", ...fontFamily.sans],
       },
       keyframes: {
         "accordion-down": {
