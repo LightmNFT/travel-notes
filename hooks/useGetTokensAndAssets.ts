@@ -9,7 +9,7 @@ import {
   TransferEvent,
 } from "../types/ethers-contracts/LightmEquippableMultiAssetFacetABI"
 
-const START_BLOCK = process.env.START_BLOCK || 10
+const START_BLOCK = Number(process.env.START_BLOCK) || 10
 
 export interface IToken {
   id: BigNumber
