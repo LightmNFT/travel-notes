@@ -2,6 +2,8 @@
 
 This is the frontend part of Travel Notes which is developed during ETHBeijing Hackathon.
 
+Access https://github.com/LightmNFT/Lightm-evm/tree/beijing-hackathon-scroll-l2/contracts/travel-notes-implementations to get contracts info.
+
 ## License
 
 Licensed under the [Apache 2.0](./LICENSE).
