@@ -1,3 +1,15 @@
+# 📜 Travel Notes
+
+This is the frontend part of Travel Notes which is developed during ETHBeijing Hackathon.
+
+## License
+
+Licensed under the [Apache 2.0](./LICENSE).
+
+Below is the origin README of [shadcn](https://github.com/shadcn) next-template
+
+---
+
 # next-template
 
 A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
