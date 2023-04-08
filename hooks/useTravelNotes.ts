@@ -42,6 +42,7 @@ export default function useTravelNotes(targetAddress?: string) {
     IRMRKNestableEventsAndStruct.ChildStructOutput[]
   >([])
 
+  const [isGettingTokens, setIsGettingTokens] = useState(true)
   const [isMinting, setIsMinting] = useState(false)
   const [isGettingActiveCRA, setIsGettingActiveCRA] = useState(true)
 
@@ -87,8 +88,11 @@ export default function useTravelNotes(targetAddress?: string) {
   }, [ownedNoteId, provider, wsProvider])
 
   const getTokens = useCallback(async () => {
+    setIsGettingTokens(true)
+
     const _tokens = await functions.getTokens()
     setTokens(_tokens)
+    setIsGettingTokens(false)
   }, [functions])
 
   const getActiveCRA = useCallback(async () => {
@@ -163,7 +167,7 @@ export default function useTravelNotes(targetAddress?: string) {
     travelNotes,
     travelNotesW,
     state: { ownedNoteId, activeCRA, children },
-    status: { isMinting, isGettingActiveCRA },
+    status: { isMinting, isGettingActiveCRA, isGettingTokens },
     functions: { claimTravelNote, getActiveCRA, getEquipStatus },
   }
 }

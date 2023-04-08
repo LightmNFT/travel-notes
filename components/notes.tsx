@@ -49,7 +49,7 @@ export default function Notes({ ownerAddress }: INotes) {
   const {
     travelNotesW,
     state: { ownedNoteId, activeCRA, children },
-    status: { isGettingActiveCRA },
+    status: { isGettingActiveCRA, isGettingTokens },
     functions: { getEquipStatus, getActiveCRA },
   } = useTravelNotes(ownerAddress)
   const { toast } = useToast()
@@ -584,7 +584,11 @@ export default function Notes({ ownerAddress }: INotes) {
     fetchEquipStatus()
   }, [fetchEquipStatus])
 
-  return ownedNoteId ? (
+  return isGettingTokens ? (
+    <div className="flex h-full flex-col items-center justify-center">
+      <span>Loading...</span>
+    </div>
+  ) : ownedNoteId ? (
     <Sheet open={openSheet} onOpenChange={setOpenSheet}>
       {notesEvoStageBar}
       {bag}

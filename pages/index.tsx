@@ -15,7 +15,7 @@ export default function IndexPage() {
   const {
     travelNotes,
     state: { ownedNoteId },
-    status: { isMinting },
+    status: { isMinting, isGettingTokens },
     functions: { claimTravelNote },
   } = useTravelNotes()
   const { toast } = useToast()
@@ -41,7 +41,9 @@ export default function IndexPage() {
   }, [claimTravelNote, toast, travelNotes.interface])
 
   const tips = address ? (
-    ownedNoteId ? (
+    isGettingTokens ? (
+      "Loading..."
+    ) : ownedNoteId ? (
       <>
         You have claimed your Travel Notes.
         <br />
